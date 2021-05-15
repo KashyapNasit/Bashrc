@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-cp -i ~/.bashrc ~/scripts/backup/;
-cp -i ~/scripts/aliases ~/scripts/backup/;
+cp  ~/.bashrc ~/scripts/backup/;
+cp  ~/scripts/aliases ~/scripts/backup/;
 
 git add *;
 date=`date`;
