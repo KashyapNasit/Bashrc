@@ -1,0 +1,28 @@
+alias nr='npm run '
+alias ng='nest g '
+alias ndev='npm run start:dev'
+alias commit='sh ~/scripts/commit.sh'
+alias generator='sh ~/scripts/generator.sh'
+
+alias migrator='python3 ~/scripts/python/migrator.py'
+alias seeder='python3 ~/scripts/python/seeder.py'
+alias aliases='sbl ~/scripts/aliases'
+alias cp="cp -i"                          # confirm before overwriting something
+alias df='df -h'                          # human-readable sizes
+alias free='free -m'                      # show sizes in MB
+alias np='nano -w PKGBUILD'
+alias more=less
+alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+
+#Git Aliasses
+alias gstash='git add .; git stash; git stash clear;'
+alias gpull='git pull'
+alias gprune='git fetch --prune'
+alias gadd='git add *'
+alias gcommit='git commit'
+alias gstatus='git status'
+alias syncc='~/scripts/syncclasses.sh'
+alias gclone='git clone'
+alias gpush='git push'
+alias gcheckout='git checkout'
